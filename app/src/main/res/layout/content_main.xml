@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/perdirPermissao"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timeTravelTextView" />
+
+    <Button
+        android:id="@+id/ativarGpsButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/ativarGpsButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/desativarGpsButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/desativarGpsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/iniciarPercursoButton"
+        android:layout_width="170dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/iniciarPercurso"
+        app:layout_constraintEnd_toEndOf="@+id/ativarGpsButton"
+        app:layout_constraintStart_toStartOf="@+id/ativarGpsButton"
+        app:layout_constraintTop_toBottomOf="@+id/ativarGpsButton" />
+
+    <Button
+        android:id="@+id/terminarPercursoButton"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/terminarPercurso"
+        app:layout_constraintEnd_toEndOf="@+id/desativarGpsButton"
+        app:layout_constraintStart_toStartOf="@+id/desativarGpsButton"
+        app:layout_constraintTop_toBottomOf="@+id/desativarGpsButton" />
+
+    <TextView
+        android:id="@+id/distanciaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/distanciaPercorrida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iniciarPercursoButton" />
+
+    <TextView
+        android:id="@+id/tempoTextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/tempoPercorrido"
+        app:layout_constraintEnd_toEndOf="@+id/distanciaTextView"
+        app:layout_constraintStart_toStartOf="@+id/distanciaTextView"
+        app:layout_constraintTop_toBottomOf="@+id/distanciaTextView" />
+
+    <EditText
+        android:id="@+id/distanciaEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/distanciaTextView"
+        app:layout_constraintTop_toBottomOf="@+id/terminarPercursoButton" />
+
+    <Chronometer
+        android:id="@+id/tempoChrometer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/distanciaEditText"
+        app:layout_constraintStart_toStartOf="@+id/distanciaEditText"
+        app:layout_constraintTop_toBottomOf="@+id/distanciaEditText" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/deseja_encontrar"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/timeTravelTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/timeTravel"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
