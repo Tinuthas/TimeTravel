@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tiempo en Tiempo</string>
+    <string name="action_settings">ajustes</string>
+    <string name="perdirPermissao">Pedir permiso</string>
+    <string name="ativarGpsButton">Activar GPS</string>
+    <string name="desativarGpsButton">Desactivar GPS</string>
+    <string name="terminarPercurso">Terminar Percurso</string>
+    <string name="iniciarPercurso">Iniciar Percurso</string>
+    <string name="distanciaPercorrida">Distância Percorrida</string>
+    <string name="tempoPercorrido">Tiempo Recorrido</string>
+    <string name="timeTravel">Viaje en el tiempo</string>
+    <string name="deseja_encontrar">Qué quieres encontrar</string>
+</resources>

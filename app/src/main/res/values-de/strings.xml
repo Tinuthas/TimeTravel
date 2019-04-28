@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zeitreise</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="perdirPermissao">Erlaubnis beantragen</string>
+    <string name="ativarGpsButton">GPS aktivieren</string>
+    <string name="desativarGpsButton">GPS deaktivieren</string>
+    <string name="terminarPercurso">Kurs beenden</string>
+    <string name="iniciarPercurso">Route starten</string>
+    <string name="distanciaPercorrida">Zurückgelegte Entfernung</string>
+    <string name="tempoPercorrido">Zeit gereist</string>
+    <string name="timeTravel">Reisezeit</string>
+    <string name="deseja_encontrar">Was du finden willst</string>
+</resources>

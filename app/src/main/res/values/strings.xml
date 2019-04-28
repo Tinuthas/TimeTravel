@@ -1,13 +1,16 @@
 <resources>
-    <string name="app_name">PercursoTempo</string>
+    <string name="app_name">Time Travel</string>
     <string name="action_settings">Settings</string>
-    <string name="perdirPermissao">Pedir Permissão</string>
-    <string name="ativarGpsButton">Ativar GPS</string>
-    <string name="desativarGpsButton">Desativar GPS</string>
-    <string name="terminarPercurso">Terminar Percurso</string>
+    <string name="perdirPermissao">Request Permission</string>
+    <string name="ativarGpsButton">Enable GPS</string>
+    <string name="desativarGpsButton">Disable GPS</string>
+    <string name="terminarPercurso">Finish Poute</string>
     <string name="iniciarPercurso">Iniciar Percurso</string>
-    <string name="distanciaPercorrida">Distância Percorrida</string>
-    <string name="tempoPercorrido">Tempo Percorrido</string>
+    <string name="distanciaPercorrida">Start Route</string>
+    <string name="tempoPercorrido">Time Route</string>
     <string name="timeTravel">Time Travel</string>
-    <string name="deseja_encontrar">O que deseja encontrar</string>
+    <string name="deseja_encontrar">What do you want to find</string>
+    <string name="permission_not_granted">Permission not granted</string>
+    <string name="gps_not_enable">GPS not enable</string>
+    <string name="distance">Distance:</string>
 </resources>
